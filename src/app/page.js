@@ -1,14 +1,15 @@
-import { Hero } from "@/components/home/hero";
-import { Options } from "@/components/home/options";
-import { Header } from "@/container/header";
-import Image from "next/image";
+import { Hero } from "@/container/home/hero";
+import { Options } from "@/container/home/options";
+import { Header } from "@/components/header/header";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
     <main className="">
-      <Header/>
-     <Hero/>
-     <Options/>
+      <Header />
+      <Hero />
+      <Options />
+      <Footer />
     </main>
   );
 }
